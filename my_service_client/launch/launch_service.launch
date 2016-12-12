@@ -1,0 +1,7 @@
+<launch>
+    <node pkg = "my_service_client"
+          type = "service_client.py"
+          name = "ServiceClient"
+          output = "screen" 
+    ></node>
+</launch>

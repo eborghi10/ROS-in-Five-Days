@@ -1,0 +1,7 @@
+<launch>
+    <node pkg = "my_srv_server_custom"
+          type = "custom_service_server.py"
+          name = "CustomServiceServer"
+          output = "screen"
+    ></node>
+</launch>

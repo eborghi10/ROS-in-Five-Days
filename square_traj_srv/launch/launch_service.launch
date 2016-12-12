@@ -1,0 +1,7 @@
+<launch>
+    <node pkg = "square_traj_srv"
+          type = "service_server.py"
+          name = "SquareTrajService"
+          output = "screen"
+    ></node>
+</launch>

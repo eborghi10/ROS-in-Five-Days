@@ -1,0 +1,7 @@
+<launch>
+    <node pkg = "my_as_up_down"
+          type = "my_action_server.py"
+          name = "MyActionServer"
+          output = "screen"
+    ></node>
+</launch>

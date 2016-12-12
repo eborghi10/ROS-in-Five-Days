@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="mini_project" type="mp_src01.py" name="MiniProject" output="screen">
+    </node>
+</launch>

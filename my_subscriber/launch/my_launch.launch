@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="my_subscriber" type="subs_odom.py" name="SubsOdometry" output="screen">
+    </node>
+</launch>

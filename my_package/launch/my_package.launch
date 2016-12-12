@@ -1,0 +1,5 @@
+<launch>
+    <!-- My first launch file in ROS! -->
+    <node pkg="my_package" type="my_package_python.py" name="ObiWan" output="screen">
+    </node>
+</launch>

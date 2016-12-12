@@ -1,0 +1,9 @@
+<launch>
+    <include file = "$(find my_action_server_square)/launch/my_launch.launch" />
+    
+    <node pkg = "my_action_client_square"
+          type = "my_action_client.py"
+          name = "SquareActionClient"
+          output = "screen"
+    ></node>
+</launch>

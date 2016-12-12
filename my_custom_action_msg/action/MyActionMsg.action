@@ -1,0 +1,8 @@
+# Goal : "UP" or "DOWN"
+string goal
+---
+# Result : Nothing
+std_msgs/Empty result
+---
+# Feedback : The action which is doing
+string feedback

@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="my_publisher" type="publisher_cmd_vel.py" name="PublishVel" output="screen">
+    </node>
+</launch>

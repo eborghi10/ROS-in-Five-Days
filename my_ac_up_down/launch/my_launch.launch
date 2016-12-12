@@ -1,0 +1,9 @@
+<launch>
+    <include file = "$(find my_as_up_down)/launch/my_launch.launch" />
+    
+    <node pkg = "my_ac_up_down"
+          type = "my_action_client.py"
+          name = "MyActionClient"
+          output = "screen"
+    ></node>
+</launch>

@@ -1,0 +1,8 @@
+<launch>
+    <include file = "$(find my_srv_server_custom)/launch/my_launch.launch"/>
+    <node pkg = "srv_and_pub"
+          type = "publish_to_bb8.py"
+          name = "ServiceAndPublish"
+          output = "screen"
+    ></node>
+</launch>
